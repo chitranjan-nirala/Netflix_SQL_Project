@@ -13,7 +13,7 @@ The data for this project is sourced from the Kaggle dataset:
 
 - Dataset Link: [Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 ## Schema
----sql
+... sql
 create database Netflix_db;
 use Netflix_db;
 drop table if exists Netflix;
