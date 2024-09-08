@@ -104,7 +104,7 @@ LIMIT 1;
 - Objective: Find the movie with the longest duration.
 
 ## 6. Find Content Added in the Last 5 Years
- ```sq;
+ ```sql
 SELECT *
 FROM netflix_titles
 WHERE STR_TO_DATE(date_added, '%M %d, %Y') >= CURDATE() - INTERVAL 5 YEAR;
